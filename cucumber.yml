@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty
+
+regressao: -t @cadastro,@deletar,@edicao --format progress --format html --out=reports.html
